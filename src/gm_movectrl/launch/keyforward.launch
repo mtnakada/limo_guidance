@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="keyin" pkg="gm_sensorread" type="keyin.py" output="screen"/>
+    <node name="manualforward_node" pkg="gm_movectrl" type="manualforward.py" output="screen"/>
+</launch>

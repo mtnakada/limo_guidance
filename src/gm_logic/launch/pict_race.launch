@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find darknet_ros)/launch/yolo_v3_tiny.launch">
+        <arg name="output" value="log"/>
+    </include>
+    <include file="$(find limo_base)/launch/limo_base.launch">
+        <arg name="output" value="log"/>
+    </include>
+
+    <node name="key_input" pkg="gm_sensorread" type="keyin.py" output="log"/>
+    <node name="pictionary_race" pkg="gm_logic" type="pict_race.py" output="screen"/>
+</launch>

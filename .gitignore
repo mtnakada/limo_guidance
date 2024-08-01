@@ -1,0 +1,6 @@
+build/
+devel/
+logs/
+*.log
+*.swp
+.DS_Store

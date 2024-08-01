@@ -1,0 +1,5 @@
+setup.py
+nakada.egg-info/PKG-INFO
+nakada.egg-info/SOURCES.txt
+nakada.egg-info/dependency_links.txt
+nakada.egg-info/top_level.txt

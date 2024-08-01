@@ -1,0 +1,2 @@
+darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:gm_logic:gm_movectrl:gm_sensorread:limo_ros/limo_base:limo_ros/limo_bringup:limo_ros/limo_description
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/agilex/nakada_ws/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/nakada_ws/install -G Unix Makefiles

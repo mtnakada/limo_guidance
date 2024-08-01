@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/gm_logic/src"
+    ],
+    "cmake.configureOnOpen": false
+}
